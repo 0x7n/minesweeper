@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="mines/mines.vcxproj" />
+  <Project Path="mines/mines.vcxproj" Id="ccbb90ab-6288-4bbb-abaa-3b196441e091" />
 </Solution>

@@ -10,7 +10,6 @@ struct Particle {
 
 namespace particles {
 	inline std::vector<Particle> currentParticles;
-
 	inline void spawnExplosion(sf::Vector2f position, sf::Color color) {
 		for (int i = 0; i < 30; i++) {
 			float angle = (std::rand() % 360) * 3.14159f / 180.0f;

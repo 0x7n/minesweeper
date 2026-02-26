@@ -8,7 +8,8 @@
 #include <iostream>
 
 int main() {
-    sf::RenderWindow window(sf::VideoMode({ GRID_WIDTH * TILE_SIZE, GRID_HEIGHT * TILE_SIZE }), "Mines | Leanus");
+    sf::RenderWindow window(sf::VideoMode({ GRID_WIDTH * TILE_SIZE, GRID_HEIGHT * TILE_SIZE }), "Simple Mines");
+    window.setFramerateLimit(60);
 
     Grid myGrid;
     Menu mainMenu;
